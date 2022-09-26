@@ -1,15 +1,18 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Header from "./Components/HeaderText";
-import HeaderText from "./Components/HeaderText";
 import WebsiteIcon from "./Components/WebsiteIcon";
 import BgSwirlVideo from "./Components/BgSwirlVideo";
+import HeaderText from "./Components/HeaderText";
 
 function App() {
   return (
     <>
-      <WebsiteIcon />
-      <BgSwirlVideo />
+      <div>
+        <WebsiteIcon source="https://hypermedia.varmeverket.com/logo.svg" />
+        <div className="container">
+          <HeaderText text="The largest creative space in scandinavia" />
+        </div>
+      </div>
+      <BgSwirlVideo source="https://hypermedia.varmeverket.com/39.mp4" />
     </>
   );
 }
