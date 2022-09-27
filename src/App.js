@@ -14,7 +14,7 @@ function App() {
 
   <div className="centeredContainer">
     <h1>
-      Hejsan
+      Largest Creative Hub In Sweden
     </h1>
     </div>
     
