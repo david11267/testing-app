@@ -13,13 +13,23 @@ function App() {
   <WebsiteIcon source="https://hypermedia.varmeverket.com/logo.svg"/>
 
   <div className="centeredContainer">
-    <HeaderText text="hello benji"/>
+    <h1>
+      Hejsan
+    </h1>
     </div>
     
     <div>
       <div className="gradientBlockBlackTop"/>
         <div className="containerBgBlack centeredContainer">
-          <HeaderText text="hello benji"/>
+          <BuildingSpin/>
+         <h2>Värmeverket
+            focuses on
+            Creation,
+            Interaction and
+            Innovation
+            within Art and
+            Culture.
+          </h2>
         </div>
       <div className="gradientBlockBlackBottom"/>
     </div>
