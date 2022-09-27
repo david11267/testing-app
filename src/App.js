@@ -7,16 +7,26 @@ import BuildingSpin from "./Components/BuildingSpin";
 function App() {
   return (
     <>
-      <section>
         <BgSwirlVideo source="https://hypermedia.varmeverket.com/39.mp4" />
-        <WebsiteIcon source="https://hypermedia.varmeverket.com/logo.svg" />
-      </section>
-      <div className="container">
-        <BuildingSpin />
-      </div>
-      <div className="container">
-        <HeaderText text="The largest creative space in scandinavia" />
-      </div>
+
+<div className="mainPage">
+  <WebsiteIcon source="https://hypermedia.varmeverket.com/logo.svg"/>
+
+  <div className="centeredContainer">
+    <HeaderText text="hello benji"/>
+    </div>
+    
+    <div>
+      <div className="gradientBlockBlackTop"/>
+        <div className="containerBgBlack centeredContainer">
+          <HeaderText text="hello benji"/>
+        </div>
+      <div className="gradientBlockBlackBottom"/>
+    </div>
+
+
+
+</div>
     </>
   );
 }
