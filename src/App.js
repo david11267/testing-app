@@ -2,17 +2,21 @@ import "./App.css";
 import WebsiteIcon from "./Components/WebsiteIcon";
 import BgSwirlVideo from "./Components/BgSwirlVideo";
 import HeaderText from "./Components/HeaderText";
+import BuildingSpin from "./Components/BuildingSpin";
 
 function App() {
   return (
     <>
-      <div>
+      <section>
+        <BgSwirlVideo source="https://hypermedia.varmeverket.com/39.mp4" />
         <WebsiteIcon source="https://hypermedia.varmeverket.com/logo.svg" />
-        <div className="container">
-          <HeaderText text="The largest creative space in scandinavia" />
-        </div>
+      </section>
+      <div className="container">
+        <BuildingSpin />
       </div>
-      <BgSwirlVideo source="https://hypermedia.varmeverket.com/39.mp4" />
+      <div className="container">
+        <HeaderText text="The largest creative space in scandinavia" />
+      </div>
     </>
   );
 }
