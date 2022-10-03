@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
-
-
 export default class PeopleCard extends Component {
   render() {
     return (
-      <div className='card'>
-        <strong>Hej</strong>
+      <div style={{
+        backgroundImage: `url(${this.props.imageUrl})`}} className='card'>
+        <strong>{this.props.topLeftText}</strong>
         <div className='cardCenter'>
-          <h3>h3 text</h3> 
+          <h3>{this.props.centerText}</h3> 
         </div>  
         <div className='cardBottom'>
-          <h4>Text header</h4>
-          <p>little more info</p>
+          <h4>{this.props.bottomHeaderText}</h4>
+          <p>{this.props.bottomDetailsText}</p>
         </div>
       </div>
     )
