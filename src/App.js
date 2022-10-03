@@ -34,10 +34,10 @@ function App() {
       <div className="gradientBlockBlackBottom"/>
     </div>
 
-    <div>
+    <section>
       <OurSpaces/>
 
-    </div>
+    </section>
 
 
 </div>
