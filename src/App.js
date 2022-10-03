@@ -1,8 +1,10 @@
 import "./App.css";
 import WebsiteIcon from "./Components/WebsiteIcon";
 import BgSwirlVideo from "./Components/BgSwirlVideo";
-import HeaderText from "./Components/HeaderText";
+import HeaderText from "./Components/AnimatedHeaderText";
 import BuildingSpin from "./Components/BuildingSpin";
+import AnimatedHeaderText from "./Components/AnimatedHeaderText";
+import OurSpaces from "./Components/OurSpaces";
 
 function App() {
   return (
@@ -13,9 +15,7 @@ function App() {
   <WebsiteIcon source="https://hypermedia.varmeverket.com/logo.svg"/>
 
   <div className="centeredContainer">
-    <h1>
-      Largest Creative Hub In Sweden
-    </h1>
+    <AnimatedHeaderText text="Largest Creative Hub In Sweden"/>
     </div>
     
     <div>
@@ -34,6 +34,10 @@ function App() {
       <div className="gradientBlockBlackBottom"/>
     </div>
 
+    <div>
+      <OurSpaces/>
+
+    </div>
 
 
 </div>
