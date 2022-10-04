@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../Css/VV.css";
+
 export default class BgSwirlVideo extends Component {
   render() {
     return (

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../Css/VV.css";
+
 export default class WebsiteIcon extends Component {
   render() {
     return (
