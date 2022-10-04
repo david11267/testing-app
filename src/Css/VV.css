@@ -22,23 +22,15 @@ background-repeat: no-repeat;
 background-size: contain;
 background-position: center;
 background-size: cover;
-height: 80vw;
+height: 50vw;
 margin-bottom: 2rem;
 
 }
 
 .card:hover{
-  background-image: url("https://uploads-ssl.webflow.com/622762e08d276c4648e1fffa/624db36a933c69aaadcf901a_Group%201590.jpeg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-size: cover;
-  height: 80vw;
-  margin-bottom: 2rem;
   filter: saturate(3);
   transform: scale(1.1);
   transition: all 0.5s ease;
-  
 }
 
 
