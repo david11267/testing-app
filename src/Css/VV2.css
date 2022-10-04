@@ -51,6 +51,74 @@ main {
   margin-left: -25%;
 }
 
+.ourSpacesContainer {
+  border-top: rgb(185, 185, 185) 1px solid;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.ourSpacesContainer:first-child {
+  margin-bottom: 1rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: white 1px solid;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s ease;
+}
+
+.peopleCard {
+  background-size: cover;
+  height: 50vw;
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  filter: saturate(3);
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+.cardCenter {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.heroH1text {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 821px) {
+  h1 {
+    font-size: 7rem;
+  }
+  h2 {
+    font-size: 5rem;
+  }
+  .LogoImage {
+    margin: 2rem;
+    height: 4rem;
+  }
+  .cardWrapper {
+    column-count: 2;
+  }
+}
 @media screen and (max-width: 1000px) {
   h1 {
     font-size: 3rem;
@@ -65,20 +133,5 @@ main {
   .cardWrapper {
     margin-bottom: 100px;
     column-count: 1;
-  }
-}
-@media screen and (min-width: 821px) {
-  h1 {
-    font-size: 8rem;
-  }
-  h2 {
-    font-size: 5rem;
-  }
-  .LogoImage {
-    margin: 2rem;
-    height: 4rem;
-  }
-  .cardWrapper {
-    column-count: 2;
   }
 }

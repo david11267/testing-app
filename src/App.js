@@ -15,7 +15,7 @@ function App() {
       <main>
         <WebsiteIcon source="https://hypermedia.varmeverket.com/logo.svg" />
 
-        <div className="centeredContainer">
+        <div className="heroH1text">
           <AnimatedHeaderText text="Largest Creative Hub In Sweden" />
         </div>
 
