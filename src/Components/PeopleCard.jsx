@@ -3,7 +3,8 @@ export default class PeopleCard extends Component {
   render() {
     return (
       <div style={{
-        backgroundImage: `url(${this.props.imageUrl})`}} className='card'>
+        backgroundImage: `url(${this.props.imageUrl})`}} 
+        className="card peopleCard">
         <strong>{this.props.topLeftText}</strong>
         <div className='cardCenter'>
           <h3>{this.props.centerText}</h3> 

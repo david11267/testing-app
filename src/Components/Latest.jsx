@@ -1,13 +1,11 @@
-
 import React, { Component } from 'react'
 import PeopleCard from './PeopleCard'
-
 export default class OurSpaces extends Component {
   render() {
     return (
-      <section className='ourSpacesContainer'>
+        <section className='ourSpacesContainer'>
         <div>
-            <p>Our Spaces</p>
+            <p>Latest</p>
             <div className='cardWrapper'>
                 <PeopleCard
                   bottomDetailsText="These are some details"
