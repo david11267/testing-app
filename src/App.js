@@ -6,6 +6,7 @@ import BuildingSpin from "./Components/BuildingSpin";
 import AnimatedHeaderText from "./Components/AnimatedHeaderText";
 import OurSpaces from "./Components/OurSpaces";
 import Latest from "./Components/Latest";
+import VVButton from "./Components/VVButton";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <section>
           <OurSpaces />
         </section>
+        <VVButton />
         <section>
           <Latest />
         </section>

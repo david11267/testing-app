@@ -3,6 +3,10 @@
   color: white;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 main {
   margin-right: 5rem;
   margin-left: 5rem;
@@ -32,23 +36,27 @@ main {
   height: 500px;
 }
 .containerBgBlack {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   background-color: black;
   margin-top: -1px;
   margin-bottom: -1px;
+  height: 80vh;
 }
 .centeredContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  text-align: center;
   margin-left: 25%;
   margin-right: 25%;
 }
 
 .extendParrent {
-  width: 150%;
-  margin-left: -25%;
+  width: 200%;
+  margin-left: -50%;
 }
 
 .ourSpacesContainer {
@@ -57,9 +65,6 @@ main {
   margin-left: 50px;
 }
 
-.ourSpacesContainer:first-child {
-  margin-bottom: 1rem;
-}
 .card {
   display: flex;
   flex-direction: column;
@@ -102,6 +107,20 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.vvBtn {
+  background-color: #ffc40000;
+  color: rgb(255, 255, 255);
+  border: white 1px solid;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 10rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 821px) {
